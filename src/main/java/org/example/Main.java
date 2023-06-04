@@ -1,7 +1,11 @@
 package org.example;
 
+import org.example.containers.MainContainer;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        MainContainer mainContainer;
+        mainContainer = new MainContainer();
+        mainContainer.setVisible(true);
     }
 }
